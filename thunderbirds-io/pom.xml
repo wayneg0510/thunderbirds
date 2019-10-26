@@ -14,6 +14,17 @@
         <version>0.0.1</version>
     </parent>
 
+    <properties>
+        <commons.lang3.version>3.8.1</commons.lang3.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

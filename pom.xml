@@ -12,6 +12,10 @@
 
     <name>thunderbirds-parent</name>
 
+    <modules>
+        <module>thunderbirds-io</module>
+    </modules>
+
     <properties>
         <spring.boot.version>2.1.5.RELEASE</spring.boot.version>
         <guava.version>27.0-jre</guava.version>
